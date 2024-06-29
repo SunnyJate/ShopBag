@@ -4,6 +4,29 @@
     box-sizing: border-box;
     font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+h2{
+    font-size: 46px;
+    line-height: 56px;
+    color: #222;
+}
+h4{
+    font-size: 20px;
+    color: #222;
+}
+h6{
+        font-size: 12px;
+        font-weight: 700;
+}
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0 ;
+}
 
 #header{
     display: flex;
@@ -75,7 +98,7 @@
 }
 
 #hero{
-    background-image: url(Images/Hero.jpg);
+    background-image: url(Images/Hero.png);
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -84,4 +107,36 @@
     align-items: flex-start;
     justify-content: center;
     padding: 0 80px;
+}
+
+#hero h4{
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+    
+#hero h2{
+    font-size: 70px;
+}
+
+#hero h1{
+    color: #f4fa7d;
+    font-size: 70px;
+}
+
+#hero button{
+    background-color: lightyellow;
+    background-image: url(Images/Button.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 260px;
+    height: 60px;
+    border: 0;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    color: #088178;
+    padding: 14px;
+    padding: 14px 65px 14px 65px;
 }
